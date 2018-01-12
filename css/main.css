@@ -15,11 +15,17 @@ a {
 	text-decoration: none;
 }
 
+li {
+	list-style: none;
+}
+
 .btn {
 	display: inline-block;
 
 	padding-top: 16px;
 	padding-bottom: 16px;
+
+	border-radius: 3px;
 
 	font-size: 16px;
 	line-height: 18px;
@@ -157,7 +163,7 @@ input[name="toggle"] {
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
-	background-color: #eeeeee;
+	background-color: #c1c1c1;
 }
 
 
@@ -192,19 +198,19 @@ input[name="toggle"] {
 .slides .slide:nth-child(1) {
 	background-image: url(../images/slide1.png);
 	background-repeat: no-repeat;
-	background-position: 502px 22px;
+	background-position: 462px 22px;
 }
 
 .slides .slide:nth-child(2) {
 	background-image: url(../images/slide2.png);
 	background-repeat: no-repeat;
-	background-position: 451px 2px;
+	background-position: 499px 2px;
 }
 
 .slides .slide:nth-child(3) {
 	background-image: url(../images/slide3.png);
 	background-repeat: no-repeat;
-	background-position: 451px 22px;
+	background-position: 401px 22px;
 }
 
 
@@ -217,3 +223,80 @@ input[name="toggle"] {
 #btn-3:checked ~ .slides .slide:nth-child(3) {
 	display: block;
 }
+/*End header*/
+
+/*features*/
+
+.features {
+	padding-top: 80px;
+	border-bottom: 2px solid #eeeeee;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 100px;
+}
+
+.features-item:last-child {
+	margin-right: 50px;
+}
+
+.features-item figure {
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.features-item a {
+	width: 160px;
+	margin-bottom: 80px;
+}
+
+.features-item-1 a {
+	background-color: #fb565a;
+}
+
+.features-item-2 a {
+	background-color: #00ca74;
+}
+
+.features-item-3 a {
+	background-color: #efc84a;
+}
+
+.about {
+	padding-top: 40px;
+	width: 100%;
+}
+
+.about b {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 45px;
+	line-height: 45px;
+	margin-bottom: 25px;
+}
+
+.about p {
+	margin: 0px;
+}
+
+.about-left {
+	float: left;
+	width: 680px;
+	padding-top: 40px;
+}
+
+.about-left ul {
+	margin: 0;
+	padding: 0;
+}
+.about-left li {
+	margin-bottom: 35px;
+}
+
+.about-right {
+	float: right;
+	width: 360px;
+}
+
